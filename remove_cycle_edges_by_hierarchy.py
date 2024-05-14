@@ -90,7 +90,7 @@ def computing_hierarchy(graph_file,players_score_func_name, nodetype = int):
 		
 		return players
 
-def breaking_cycles_by_hierarchy_performance(graph_file,gt_file,players_score_name,nodetype = int):
+def breaking_cycles_by_hierarchy_performance(graph_file,gt_file,players_score_name,nodetype = str):
 	
 	from measures import report_performance
 	if players_score_name != "ensembling":
